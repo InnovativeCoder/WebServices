@@ -1,7 +1,9 @@
 package com.vanier.spring.learnspringframework.game;
 
 import com.vanier.spring.learnspringframework.GamingConsole;
+import org.springframework.stereotype.Component;
 
+@Component
 public class PacManGame implements GamingConsole {
     public void up(){
         System.out.println("PacMan up");
